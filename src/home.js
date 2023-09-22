@@ -1,7 +1,15 @@
 export default function Home() {
     const main = document.querySelector(".main");
-
-    main.innerHTML = "Delicious Slices, Memorable Bites - Your Pizza Paradise Awaits!";
     main.classList.add("home");
-    console.log("success");
+
+    const slogan = document.createElement('p');
+    slogan.classList.add("slogan");
+    slogan.innerHTML = "Delicious Slices, Memorable Bites <br> Your Pizza Paradise Awaits!";
+
+    const orderNowBtn = document.createElement('btn'); 
+    orderNowBtn.classList.add("orderNowBtn");
+    orderNowBtn.innerHTML = "Order Now"
+    
+    main.appendChild(slogan);
+    main.appendChild(orderNowBtn);
 }

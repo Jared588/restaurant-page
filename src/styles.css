@@ -8,7 +8,7 @@ html, body {
     height: 100vh;
     width: 100%;
     margin: 0;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./images/pizza-main.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url('./images/pizza-main.jpg');
 }
 
 .header {
@@ -37,9 +37,27 @@ html, body {
 
 .home {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    font-family: 'Fjalla One', sans-serif;
     align-items: center;
-    font-size: 40px;
+    margin-bottom: 10rem;
+}
+
+.slogan {
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
     color: aliceblue;
+    text-shadow: 50%;
+    font-size: 64px;
+}
+
+.orderNowBtn {
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid white;
+    font-size: 24px;
+    border-radius: 1rem;
+    padding: 1rem;
+    color: aliceblue;
+    background: linear-gradient(to right, rgb(58, 58, 58, 0.9), rgb(82, 82, 82, 0.9));
+    cursor: pointer;
 }
