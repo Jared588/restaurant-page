@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Delicious+Handrawn&family=Oswald&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Croissant+One&family=Delicious+Handrawn&family=Oswald&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Croissant+One&family=Delicious+Handrawn&family=Fjalla+One&family=Oswald&family=Roboto&display=swap');
+
 html, body {
     display: grid;
     grid-template-rows: 1fr 6fr 0.3fr;
@@ -8,7 +12,34 @@ html, body {
 }
 
 .header {
-    font-family: fantasy;
+    display: grid;
+    justify-content: left;
+    padding-left: 5rem;
+    align-items: center;
+    font-family: 'Croissant One', cursive;
+    font-size: 32px;
+    color: aliceblue;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+    border-bottom: 1px rgb(139, 139, 139) solid;
+    
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: aliceblue;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+    border-top: 1px rgb(139, 139, 139) solid;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    font-family: 'Fjalla One', sans-serif;
+    align-items: center;
+    font-size: 40px;
     color: aliceblue;
 }

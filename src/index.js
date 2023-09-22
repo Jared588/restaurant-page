@@ -10,9 +10,16 @@ function initialize() {
     main.classList.add("main");
     footer.classList.add("footer");
 
+    // Header
+    header.innerHTML = "Pizza Paradise"
+
+    // Footer
+    footer.innerHTML = "Copyright @ Jared Price"
+
     document.body.appendChild(header);
     document.body.appendChild(main);
     document.body.appendChild(footer);
 }
 
 initialize();
+Home();
