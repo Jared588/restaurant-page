@@ -6,7 +6,7 @@ export default function Home() {
     slogan.classList.add("slogan");
     slogan.innerHTML = "Delicious Slices, Memorable Bites <br> Your Pizza Paradise Awaits!";
 
-    const orderNowBtn = document.createElement('btn'); 
+    const orderNowBtn = document.createElement('button'); 
     orderNowBtn.classList.add("orderNowBtn");
     orderNowBtn.innerHTML = "Order Now"
     

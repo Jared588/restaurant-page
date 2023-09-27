@@ -1,5 +1,6 @@
 import './styles.css';
 import Home from './home';
+import Menu from './menu';
 
 function initialize() {
     const header = document.createElement('header');
@@ -42,4 +43,4 @@ function initialize() {
 }
 
 initialize();
-Home();
+Menu();
