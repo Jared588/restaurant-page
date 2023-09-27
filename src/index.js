@@ -43,4 +43,4 @@ function initialize() {
 }
 
 initialize();
-Menu();
+Home();
