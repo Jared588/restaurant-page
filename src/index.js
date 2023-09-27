@@ -3,6 +3,8 @@ import Home from './home';
 import Menu from './menu';
 
 function initialize() {
+    clear();
+
     const header = document.createElement('header');
     const tabContainer = document.createElement('div');
 
@@ -44,8 +46,7 @@ function initialize() {
     document.body.appendChild(footer);
 }
 
-function switchTab(page) {
-    clear();
+export function switchTab(page) {
     initialize();
     if (page === "home") {
         Home();

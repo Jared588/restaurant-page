@@ -1,3 +1,5 @@
+import { switchTab } from ".";
+
 export default function Home() {
     const main = document.querySelector(".main");
     main.classList.add("home");
@@ -7,6 +9,7 @@ export default function Home() {
     slogan.innerHTML = "Delicious Slices, Memorable Bites <br> Your Pizza Paradise Awaits!";
 
     const orderNowBtn = document.createElement('button'); 
+    orderNowBtn.addEventListener('click', () => switchTab("menu"));
     orderNowBtn.classList.add("orderNowBtn");
     orderNowBtn.innerHTML = "Order Now"
     
