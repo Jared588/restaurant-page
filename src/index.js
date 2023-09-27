@@ -7,7 +7,9 @@ function initialize() {
     const tabContainer = document.createElement('div');
 
     const tabHome = document.createElement('button');
+    tabHome.addEventListener('click', () => switchTab("home"));
     const tabMenu = document.createElement('button');
+    tabMenu.addEventListener('click', () => switchTab("menu"));
     const tabAbout = document.createElement('button');
 
     const main = document.createElement('div'); 
@@ -42,5 +44,21 @@ function initialize() {
     document.body.appendChild(footer);
 }
 
+function switchTab(page) {
+    clear();
+    initialize();
+    if (page === "home") {
+        Home();
+    }
+    if (page === "menu") {
+        Menu();
+    }
+}
+
+function clear() {
+    document.body.innerHTML = '';
+}
+
+// Default
 initialize();
 Home();
