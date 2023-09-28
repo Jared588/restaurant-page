@@ -16,7 +16,7 @@ export default function About() {
     // Create paragraphs for contact information
     const location = document.createElement('p');
     location.classList.add('location');
-    location.textContent = "📍 123 Fake Street"; // Use textContent to set text
+    location.textContent = "📍 123 Paradise Street"; // Use textContent to set text
     infoContainer.appendChild(location);
 
     const times = document.createElement('p');

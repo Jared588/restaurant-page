@@ -43,7 +43,7 @@ export default function Menu() {
     createPizzaElement('../src/images/pizzas/pizza4.png', "B-T-O", "Bacon, Tomato and Olives");
 
     // Hawaain
-    createPizzaElement('../src/images/pizzas/pizza5.png', "Hawaain", "Yes, Pineapple Belongs on Pizza");
+    createPizzaElement('../src/images/pizzas/pizza5.png', "Hawaiian", "Yes, Pineapple Belongs on Pizza");
 
     // Seafood
     createPizzaElement('../src/images/pizzas/pizza6.png', "Seafood", "Arrr, a Pirates Treat for Me!");
@@ -51,8 +51,8 @@ export default function Menu() {
     // Vegetarian
     createPizzaElement('../src/images/pizzas/pizza7.png', "Vegetarian", "Red Onions, Sliced Tomatoes, Olives, and Broccoli");
 
-    // Seafood
-    createPizzaElement('../src/images/pizzas/pizza8.png', "Seafood", "Arrr, a Pirates Treat for Me!");
+    // Mediterranean
+    createPizzaElement('../src/images/pizzas/pizza8.png', "Mediterranean", "Salty feta, Peppery basil, Briny Kalamata olives, and Tangy sundried tomatoes");
     
     // Mexican
     createPizzaElement('../src/images/pizzas/pizza9.png', "Mexican", "Salami and Red Hot Chilli Peppers! 🎵");
