@@ -67,4 +67,4 @@ function clear() {
 
 // Default
 initialize();
-About();
+Home();
