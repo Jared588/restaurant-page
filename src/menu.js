@@ -1,3 +1,13 @@
+import pizza1 from './images/pizzas/pizza1.png';
+import pizza2 from './images/pizzas/pizza2.png';
+import pizza3 from './images/pizzas/pizza3.png';
+import pizza4 from './images/pizzas/pizza4.png';
+import pizza5 from './images/pizzas/pizza5.png';
+import pizza6 from './images/pizzas/pizza6.png';
+import pizza7 from './images/pizzas/pizza7.png';
+import pizza8 from './images/pizzas/pizza8.png';
+import pizza9 from './images/pizzas/pizza9.png';
+
 export default function Menu() {
     const main = document.querySelector(".main");
     main.classList.add("menu");
@@ -31,31 +41,31 @@ export default function Menu() {
     }
 
     // Margherita
-    createPizzaElement('../src/images/pizzas/pizza1.png', "Margherita", "Plain Tomato Base with Mozarella Cheese");
+    createPizzaElement(pizza1, "Margherita", "Plain Tomato Base with Mozarella Cheese");
 
     // Tomato & Mushroom
-    createPizzaElement('../src/images/pizzas/pizza2.png', "Tomato & Mushroom", "Tomato, Olives and Sliced Tomatoes");
+    createPizzaElement(pizza2, "Tomato & Mushroom", "Tomato, Olives and Sliced Tomatoes");
 
     // Pepperoni
-    createPizzaElement('../src/images/pizzas/pizza3.png', "Pepperoni", "Classic Pepperoni with Mozarella Cheese");
+    createPizzaElement(pizza3, "Pepperoni", "Classic Pepperoni with Mozarella Cheese");
 
     // Meat Supreme
-    createPizzaElement('../src/images/pizzas/pizza4.png', "B-T-O", "Bacon, Tomato and Olives");
+    createPizzaElement(pizza4, "B-T-O", "Bacon, Tomato and Olives");
 
     // Hawaain
-    createPizzaElement('../src/images/pizzas/pizza5.png', "Hawaiian", "Yes, Pineapple Belongs on Pizza");
+    createPizzaElement(pizza5, "Hawaiian", "Yes, Pineapple Belongs on Pizza");
 
     // Seafood
-    createPizzaElement('../src/images/pizzas/pizza6.png', "Seafood", "Arrr, a Pirates Treat for Me!");
+    createPizzaElement(pizza6, "Seafood", "Arrr, a Pirates Treat for Me!");
 
     // Vegetarian
-    createPizzaElement('../src/images/pizzas/pizza7.png', "Vegetarian", "Red Onions, Sliced Tomatoes, Olives, and Broccoli");
+    createPizzaElement(pizza7, "Vegetarian", "Red Onions, Sliced Tomatoes, Olives, and Broccoli");
 
     // Mediterranean
-    createPizzaElement('../src/images/pizzas/pizza8.png', "Mediterranean", "Salty feta, Peppery basil, Briny Kalamata olives, and Tangy sundried tomatoes");
+    createPizzaElement(pizza8, "Mediterranean", "Salty feta, Peppery basil, Briny Kalamata olives, and Tangy sundried tomatoes");
     
     // Mexican
-    createPizzaElement('../src/images/pizzas/pizza9.png', "Mexican", "Salami and Red Hot Chilli Peppers! 🎵");
+    createPizzaElement(pizza9, "Mexican", "Salami and Red Hot Chilli Peppers! 🎵");
 
     
     function appendContainer(container, img, name, description, button) {
