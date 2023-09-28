@@ -153,3 +153,72 @@ html, body {
     background: linear-gradient(to right, rgb(58, 58, 58, 0.9), rgb(82, 82, 82, 0.9));
     cursor: pointer;
 }
+
+/* About Section */
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0, 0.75);
+    padding: 3rem;
+    border-radius: 1rem;
+    padding-bottom: 9.5rem;
+}
+
+.info-heading {
+    font-family: 'Croissant One', cursive;
+    font-size: 44px;
+    color: rgb(217, 227, 235);
+    margin-top: -0.8rem;
+}
+
+.info-container {
+    color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(54, 54, 54, 0.5);
+    width: fit-content;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form-input {
+    background-color: transparent;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    border-bottom: 1px grey solid;
+    padding: 10px; /* Add padding for better visual appearance */
+    width: 100%;
+    resize: none;
+}
+
+.message-us {
+    font-family: 'Croissant One', cursive;
+    border-bottom: 1px white solid;
+    font-size: 22px;
+    margin-top: 3rem;
+    color: rgb(201, 201, 201);
+}
+
+.submit-button {
+    color: aliceblue;
+    background: none;
+    border: 1px white solid;
+    border-radius: 1rem;
+    width: 5rem;
+    padding: 0.4rem 0rem;
+    margin-top: 1rem;
+    align-self: center;
+    cursor: pointer;
+}

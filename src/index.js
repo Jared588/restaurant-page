@@ -1,6 +1,7 @@
 import './styles.css';
 import Home from './home';
 import Menu from './menu';
+import About from './about';
 
 function initialize() {
     clear();
@@ -13,6 +14,7 @@ function initialize() {
     const tabMenu = document.createElement('button');
     tabMenu.addEventListener('click', () => switchTab("menu"));
     const tabAbout = document.createElement('button');
+    tabAbout.addEventListener('click', () => switchTab("about"));
 
     const main = document.createElement('div'); 
     const footer = document.createElement('footer');
@@ -54,6 +56,9 @@ export function switchTab(page) {
     if (page === "menu") {
         Menu();
     }
+    if (page === "about") {
+        About();
+    }
 }
 
 function clear() {
@@ -62,4 +67,4 @@ function clear() {
 
 // Default
 initialize();
-Home();
+About();
